@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Prática 06</title>
+</head>
+<body>
+    <h1><strong>Lista de estudantes </strong></h1>
+    <form action="">
+        <input type="text"
+            id="searchstring"
+            name="searchstring"
+            placeholder="nome, matricula ou código">
+        <input type="submit"
+            value="pesquisar" id="search"> <br>
+        <!-- Filtros -->
+        <input type="radio"
+            name="searchfilter"
+            value="all"
+            checked>Tudo <input type="radio"
+            name="searchfilter"
+            value="cod">Código <input type="radio"
+            name="searchfilter"
+            value="mat">Matrícula <input type="radio"
+            name="searchfilter"
+            value="name">Nome
+    </form>
+    <table>
+        <thead>
+            <tr>
+            <th>Código</th>
+            <th>Matrícula</th>
+            <th>Nome</th>
+            <th>Email</th>
+        </tr>
+        </thead>
+<tbody>
+    <tr>
+        <th>55438</th>
+        <th>20192031458</th>
+        <th>Twobias</th>
+        <th>tobias.mouraa10@gmail.com</th>
+    </tr>
+</tbody>
+
+    </table>
+    <script src="js/app.js"></script>
+
+</body>
+</html>
